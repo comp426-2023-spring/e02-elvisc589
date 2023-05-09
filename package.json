@@ -20,7 +20,7 @@
     "express",
     "server"
   ],
-  "author": "@jdmar3",
+  "author": "@jdmar3, @elvisc589",
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "express": "^4.18.2",

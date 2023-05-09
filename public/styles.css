@@ -1,8 +1,47 @@
+/* Background color for the body */
 body {
-}
-
-h1 {
-}
-
-p {
-}
+    background-color: rgb(0, 128, 128);
+  }
+  
+  /* Styling for the game results */
+  p.results {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: blue;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+  
+  /* Styling for the game options */
+  img.shot {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  
+  /* Styling for the game buttons */
+  button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  button:hover {
+    background-color: #4CAF50;
+  }

@@ -1,4 +1,4 @@
-//// Load most basic dependencies
+//// Load most basic dependencies to work properly
 // Create require function 
 // https://nodejs.org/docs/latest-v18.x/api/module.html#modulecreaterequirefilename
 import { createRequire } from 'node:module';
